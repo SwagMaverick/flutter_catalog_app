@@ -1,0 +1,48 @@
+{
+  "@@locale": "en",
+  "appTitle": "Catalog",
+  "postsTitle": "Posts",
+  "searchHint": "Search by title",
+  "postDetailTitle": "Post #{id}",
+  "@postDetailTitle": {
+    "placeholders": {
+      "id": {
+        "type": "int"
+      }
+    }
+  },
+  "postAuthor": "Author #{userId}",
+  "@postAuthor": {
+    "placeholders": {
+      "userId": {
+        "type": "int"
+      }
+    }
+  },
+  "addToFavorites": "Add to favorites",
+  "removeFromFavorites": "Remove from favorites",
+  "favoritesTitle": "Favorites",
+  "favoritesEmpty": "Nothing saved yet",
+  "favoriteAddedOn": "Saved {date}",
+  "@favoriteAddedOn": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMMMd"
+      }
+    }
+  },
+  "usersTitle": "Users",
+  "userEmail": "Email",
+  "userPhone": "Phone",
+  "userWebsite": "Website",
+  "userCity": "City",
+  "userCompany": "Company",
+  "retry": "Retry",
+  "emptyPosts": "No posts found",
+  "errorServer": "Something went wrong on the server. Please try again later.",
+  "errorNetwork": "No internet connection. Check your network and try again.",
+  "errorTimeout": "The request took too long. Please try again.",
+  "errorUnknown": "An unexpected error occurred.",
+  "errorCache": "Could not read saved data."
+}
